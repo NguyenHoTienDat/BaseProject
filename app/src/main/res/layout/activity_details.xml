@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.example.tiendat.androidbaseproject.ui.screen.main.MainViewModel" />
+            type="com.example.tiendat.androidbaseproject.ui.screen.details.DetailViewModel" />
 
         <import type="android.view.View" />
     </data>
@@ -25,14 +25,5 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/button_navigation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Go to BaseLoadActivity"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_show" />
     </android.support.constraint.ConstraintLayout>
 </layout>
